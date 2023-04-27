@@ -1,37 +1,24 @@
-<a name="readme-top"></a>
-
-<div align="center">
-   <h1><b>Ruby Template</b></h1>
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 TDD <a name="about-project"></a>
 
-# 📖 Ruby Template <a name="about-project"></a>
-
-**Ruby Template** is a Ruby app that allows users to manage ... and ... .
+**TDD** is a project we create a solver class with some methods to write test using Test Drive and Development
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,102 +28,74 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
 </details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="">N/A</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li>N/A</li>
-  </ul>
-</details>
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **.. can be created as .. or ..**
+- Add factorials method
+- Add reverse a string
+- Add fizzbuzz method
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Not available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy of this project and run it in your computer, follow these steps.
-
 ### Prerequisites
 
 In order to run this project you need:
 
-- A working computer.
-- Connection to internet.
+- [Ruby](https://www.ruby-lang.org/en/) installed and running
+- You should be able to use [IRB](<https://en.wikipedia.org/wiki/Ruby_(programming_language)#Features>)
 
 ### Setup
 
-To get a local copy up and running follow these simple example steps.
-
-Clone this repository in the desired folder:
+Clone this repository to your desired folder:
 
 ```
-cd my-folder
-git clone https://github.com/JakariaJishan/....git
+git clone https://github.com/JakariaJishan/TDD.git
+cd TDD
 ```
 
 ### Install
 
-To install this project:
+Install the project dependencies with:
 
-```
-cd repo_name
-code .
-bundler install
-```
-
-### Usage
-
-To run the project, execute the following command in Bash:
-
-```
-ruby main.rb
-```
-
-### Run Tests
-
-To run the project tests, execute the following command:
-
-```
-N/A
+```sh
+  gem install ruby
+  gem install rspec
+  bundle install
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Jakria Jishan**
+👤 **Vanessa Oliveros Padron**
 
-- GitHub: [@jakaria](https://github.com/jakariajishan)
+- GitHub: [@vvoo21](https://github.com/vvoo21)
+- Twitter: [@vaneoliverosp](https://twitter.com/vaneoliverosp)
+- LinkedIn: [vaneoliverosp](https://www.linkedin.com/in/vaneoliverosp/)
+
+👤 **Jakaria Jishan**
+
+- GitHub: [@jakaria](https://github.com/JakariaJishan)
+- Twitter: [@jakaria](https://twitter.com/jakariajishan)
+- LinkedIn: [jakaria](https://www.linkedin.com/in/jakariajishan/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add new books.**
-- [ ] **Save records of who borrowed a given book and when.**
+- Insert new data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -146,36 +105,23 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project feel free to frok it and use it as you need.
+Give a start if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the information provided to build this project.
+- I would like to thank the Microverse program!
+- I would like to thank anyone whose code was used!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **Can I use the project for any purpose?**
-
-  - Yes, you can use this files for anything you need.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
